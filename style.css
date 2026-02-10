@@ -3,17 +3,18 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #fc82c9;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0;
+    background-image: url("fondo.jpg");
+    background-repeat: repeat;
 }
 
 .caja{
     width: 90%;
     max-width: 500px;
-    background: rgb(244, 94, 204);
+    background: rgb(248, 133, 217);
     border-radius: 20px;
-    box-shadow: 0 5px 10px rgba(123, 42, 123, 0.2);
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
     text-align: center;
     padding: 25px;
 }
