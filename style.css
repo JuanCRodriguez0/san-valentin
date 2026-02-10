@@ -1,0 +1,77 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #fc82c9;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+}
+
+.caja{
+    width: 90%;
+    max-width: 500px;
+    background: rgb(244, 94, 204);
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(123, 42, 123, 0.2);
+    text-align: center;
+    padding: 25px;
+}
+
+.caja img{
+    width: 70%;
+    max-width: 260px;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+button{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 8px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #b3008f;
+    color: white;
+}
+
+h1{
+    color: white;
+    margin: 10px 0;
+}
+
+#boton1 {
+    transition: transform 0.3s ease;
+}
+
+#boton2 {
+    transition: all 0.3s ease;
+}
+
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 20px;
+    }
+    button {
+        padding: 12px 20px;
+        font-size: 14px;
+    }
+    .caja img {
+        width: 80%;
+    }
+
+}
